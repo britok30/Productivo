@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="productivo | planning made simple">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>productivo - planning made simple</title>
+
+    <!-- external stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- bootstrapcdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- icon pack -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <!-- tweenmax (greensock) cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <!-- for on scroll animations -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <script src="js/wow.min.js"></script>
+
+</head>
+
+<body>
+    <div class="my-container">
+
+        <!-- NAVBAR  -->
+
+        <div class="nav">
+
+            <div class="menu-open">
+                <ion-icon name="menu"></ion-icon>
+            </div>
+
+            <div class="brand">
+                <span><a href="index.html">productivo</a></span>
+            </div>
+
+            <div class="cart">
+                <ion-icon name="cart"></ion-icon>
+            </div>
+
+            <div class="menu">
+                <div class="menu-close">
+                    <ion-icon name="close"></ion-icon>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Collection</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="media-menu">
+                    <ul>
+                        <li>
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon name="logo-pinterest"></ion-icon>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRODUCT -->
+        <div class="container-fluid">
+            <div class="row product-sec">
+
+                <div class="col-lg-6 prod-left">
+                    <div class="hero-image">
+                        <img src="img/prod-08.jpg" class="img wow fadeInUp" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 prod-right">
+                    <div class="prod-opt">
+                        <h3 id="prod-name" class="wow fadeInUp" data-wow-delay="0.4s">Daily Planner 2018/2019</h3>
+                        <p id="price" class="wow fadeInUp" data-wow-delay="0.5s">USD $30.00</p>
+
+                        <div class="input-row">
+                            <input type="radio" id="radio-input-1" checked>
+                            <label for="radio-input-1" class="input-helper input-helper--radio wow fadeInUp"
+                                data-wow-delay="0.6s"> add monogram(+$10.00)</label>
+
+                            <br>
+
+                            <input type="radio" id="radio-input-2">
+                            <label for="radio-input-2" class="input-helper input-helper--radio wow fadeInUp"
+                                data-wow-delay="0.7s"> add gift wrap(+$10.00)</label>
+                        </div>
+
+                        <br>
+                        <input type="number" placeholder="QTY" class="wow fadeInUp" data-wow-delay="0.8s">
+
+                        <input type="number" placeholder="SIZE" class="wow fadeInUp" data-wow-delay="1s">
+
+                        <div class="add-prod wow fadeInUp" data-wow-delay="1.1s">
+                            <a href="#">Add to bag</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CATEGORIES -->
+
+        <div class="container-fluid">
+            <div class="row section shop">
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.4s">
+                    <p>If you spend too much time thinking about a thing, you’ll never get it done</p>
+
+                    <div class="link wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="shop.html">learn more <ion-icon name="arrow-round-forward"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row some-cards">
+                    <div class="col-lg-3"></div>
+
+                    <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="0.3s">
+                        <img src="img/prod-09.jpg" alt="">
+                        <p id="prod-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="0.5s">
+                        <img src="img/prod-10.jpg" alt="">
+                        <p id="prod-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="0.7s">
+                        <img src="img/prod-11.jpg" alt="">
+                        <p id="prod-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="whitespaces"></div>
+
+        <br><br><br>
+
+        <!-- FOOTER -->
+
+        <div class="container-fluid footer">
+            <div class="section container">
+                <footer>
+                    <div class="row">
+                        <div class="col-lg-3 block">
+                            <p>Productivo Inc., 1234 Jolla Drive, <br>
+                                San Diego, CA
+                                <br>
+                                USA
+                            </p>
+                        </div>
+                        <div class="col-lg-3 block">
+                            <p>FAQs
+                                <br>
+                                Return Policy
+                                <br>
+                                Shipping
+                            </p>
+                        </div>
+                        <div class="col-lg-3 block">
+                            <p>Careers
+                                <br>
+                                Community
+                                <br>
+                                Wholesale
+                            </p>
+                        </div>
+                        <div class="col-lg-3 block">
+                            <div class="media">
+                                <ul>
+                                    <li>
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="logo-instagram"></ion-icon>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="logo-pinterest"></ion-icon>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+
+        <script type="text/javascript">
+            //Scroll reveal animation
+
+            new WOW().init();
+
+
+
+
+            //Scroll activated background change 
+
+            $(function () {
+                $(document).scroll(function () {
+                    var $nav = $(".nav");
+                    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+                });
+            });
+
+            //Toggle menu 
+            var t1 = new TimelineMax({
+                paused: true
+            });
+            t1.to(".menu", 0.5, {
+                left: "0%",
+                ease: Power2.easeInOut
+            });
+
+            t1.reverse();
+            $(document).on("click", ".menu-open", function () {
+                t1.reversed(!t1.reversed());
+            })
+            $(document).on("click", ".menu-close", function () {
+                t1.reversed(!t1.reversed());
+            })
+        </script>
+
+</body>
+
+</html>
